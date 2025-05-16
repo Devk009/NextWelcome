@@ -12,8 +12,8 @@ interface NavLinkProps {
 
 const NavLink = ({ href, isActive, children, onClick }: NavLinkProps) => (
   <Link href={href}>
-    <a
-      className={`py-2 text-sm font-medium ${
+    <span
+      className={`py-2 text-sm font-medium cursor-pointer ${
         isActive 
           ? "text-primary font-semibold" 
           : "text-gray-600 hover:text-primary"
@@ -21,7 +21,7 @@ const NavLink = ({ href, isActive, children, onClick }: NavLinkProps) => (
       onClick={onClick}
     >
       {children}
-    </a>
+    </span>
   </Link>
 );
 
@@ -47,7 +47,7 @@ export default function Header({ currentPath }: HeaderProps) {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/">
-              <a className="text-primary font-bold text-xl">NextWorld</a>
+              <span className="text-primary font-bold text-xl cursor-pointer">NextWorld</span>
             </Link>
           </div>
           

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-center md:justify-start">
             <Link href="/">
-              <a className="text-xl font-bold text-white">NextWorld</a>
+              <span className="text-xl font-bold text-white cursor-pointer">NextWorld</span>
             </Link>
           </div>
           <div className="mt-4 md:mt-0">
