@@ -32,7 +32,7 @@ export default function Home() {
               <FeatureCard
                 icon={Gauge}
                 title="Fast Performance"
-                description="Optimized for speed and efficiency, providing a smooth experience for users."
+                description="Optimized for speed and efficiency, providing a smooth experience for users.sUer experience is enhanced in the codeing part "
               />
             </div>
           </div>
