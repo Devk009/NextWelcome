@@ -22,7 +22,7 @@ export default function Home() {
               <FeatureCard
                 icon={Redo2}
                 title="Built with Redo2"
-                description="Leveraging the power of Redo2 components for a responsive and interactive user experience.Hope you like it and appreciate it and make sure to hit like "
+                description="Leveraging the power of Redo2 components for a responsive and interactive user experience.Hope you like it and appreciate it and make sure to hit like and be soulful"
               />
               <FeatureCard
                 icon={Layout}
