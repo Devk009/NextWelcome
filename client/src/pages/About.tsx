@@ -27,6 +27,7 @@ export default function About() {
             <div className="md:w-1/2 mt-6 md:mt-0">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h2>
               <p className="text-gray-600 mb-6">
+                Just the basic for the audience 
                 We're dedicated to creating simple, effective, and beautiful web applications using modern technologies like React. Our goal is to provide clean, maintainable code that serves as a solid foundation for your projects.
               </p>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Why React?</h2>
